@@ -18,9 +18,9 @@ public class StudentRestController {
     @PostConstruct
     public void loadData() {
         theStudents = new ArrayList<>();
-        theStudents.add(new Student("Poornima", "Patel"));
-        theStudents.add(new Student("Mario", "Rossi"));
-        theStudents.add(new Student("Mary", "Smith"));
+        theStudents.add(new Student("Pedro", "Franck"));
+        theStudents.add(new Student("Lucas", "Jost"));
+        theStudents.add(new Student("Eduardo", "Gerhke"));
     }
 
     @GetMapping("/students")
